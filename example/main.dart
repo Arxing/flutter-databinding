@@ -62,5 +62,4 @@ void main() async {
   stringsField.add("Apple");
   stringsField.add("Banana");
   stringsField.clear();
-  stringsField.removeAt(0);
 }
