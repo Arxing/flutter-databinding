@@ -60,6 +60,7 @@ class ObservableField<T> {
   /// Get value of [ObservableField].
   T get() => _value;
 
+  /// [DataDispatchCallback] setter.
   set setterCallback(DataDispatchCallback<T> value) => _setterCallback = value;
 
   /// Throws error manually.
